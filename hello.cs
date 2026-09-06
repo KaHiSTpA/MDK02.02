@@ -5,10 +5,10 @@ class Program
 {
     static void Main()
     {
-        var x = new Faker("ru");
+        var faker = new Faker("ru");
         
-        Console.WriteLine($"Имя: {x.Name.FullName()}");
-        Console.WriteLine($"Адрес: {x.Address.FullAddress()}");
+        Console.WriteLine($"Имя: {faker.Name.FullName()}");
+        Console.WriteLine($"Адрес: {faker.Address.FullAddress()}");
         Console.WriteLine("Hello, World!");
         Console.WriteLine($"Сегодня: {DateTime.Now:d}");
         
