@@ -15,7 +15,7 @@
 
 ```bash
 git clone https://github.com/KaHiSTpA/MDK02.02.git
-cd MDK02.02/hello.cs
+cd MDK02.02
 dotnet restore
 dotnet run
 ```
